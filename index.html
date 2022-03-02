@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>숫자 맞추기 게임</h1>
+
+    <p>1에서 100 사이에 있는 정수를 맞추는 게임입니다. 10번 안에 숫자를 맞춰 주세요. 매 시도마다 입력한 숫자가 정답보다 큰지 작은지 알려줍니다.</p>
+
+    <div class="form">
+        <label for="guessField">숫자를 입력하세요: </label><input type="text" id="guessField" class="guessField">
+        <input type="submit" value="제출" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
